@@ -1,0 +1,14 @@
+interface:
+  display_name: Resume Evidence Audit
+  short_description: Audit resume evidence, ATS structure, and job alignment
+  default_prompt: Use $evaluate-resume to audit my resume against this job description,
+    score each applicable check from 0 to 2, and prioritize evidence-supported revisions.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
