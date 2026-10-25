@@ -109,8 +109,8 @@ PDF and DOCX inspection requires appropriate file-processing tools in the host e
 
 ### Setup and usage
 
-1. Obtain the complete skill package and preserve `SKILL.md`, `references/`, and `scripts/` together.
-2. Install the package using your AI assistant's documented skill-loading process. The internal skill name is `evaluate-resume`.
+1. Obtain the complete skill package `evaluate-resume`
+2. Install the package using your AI assistant's documented skill-loading process in ChatGPT, Claude, ... (I don't see it work really well in Gemini). The internal skill name is `evaluate-resume`.
 3. Provide the current resume and the complete job description for one target role.
 4. Invoke the skill with the prompt below.
 
@@ -245,8 +245,8 @@ Kiểm tra PDF/DOCX phụ thuộc vào công cụ xử lý file trong môi trư�
 
 ### Cài đặt và sử dụng
 
-1. Lấy trọn bộ skill; giữ `SKILL.md`, `references/` và `scripts/` cùng nhau.
-2. Cài đặt theo hướng dẫn nạp skill của trợ lý AI đang sử dụng. Tên nội bộ là `evaluate-resume`.
+1. Tải về trọn bộ skill `evaluate-resume`
+2. Cài đặt theo hướng dẫn nạp skill của trợ lý AI đang sử dụng như ChatGPT, Claude,... (tớ thấy Gemini không dùng hết được 100% skill này). Tên nội bộ là `evaluate-resume`.
 3. Cung cấp CV hiện tại và toàn bộ mô tả công việc của một vị trí.
 4. Sử dụng prompt bên dưới.
 
